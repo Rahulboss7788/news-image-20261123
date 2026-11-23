@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Monday Herald — 23 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    font-family: "Noto Serif", "DejaVu Serif", Georgia, serif;
+    background: #f7f2e6;
+    color: #161616;
+    padding: 16px 28px 12px 28px;
+    overflow: hidden;
+  }
+
+  /* Masthead */
+  .masthead { text-align: center; }
+  .masthead .name {
+    font-size: 64px; font-weight: 900; letter-spacing: 5px; line-height: 1;
+  }
+  .masthead .name .red { color: #9c1a1a; }
+  .dateline {
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 14px; font-weight: 700; letter-spacing: 1.4px;
+    padding: 5px 2px; margin-top: 7px;
+    border-top: 2px solid #161616; border-bottom: 2px solid #161616;
+  }
+  .dateline .mid { color: #9c1a1a; }
+
+  /* Lead story */
+  .lead { display: flex; gap: 18px; margin-top: 9px; }
+  .lead-text { flex: 0 0 396px; }
+  .kicker {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    color: #9c1a1a; font-size: 14px; font-weight: 800; letter-spacing: 2.2px;
+    margin-top: 3px;
+  }
+  h1 {
+    font-size: 45px; line-height: 1.04; font-weight: 900;
+    margin-top: 7px;
+  }
+  .deck {
+    font-size: 17px; line-height: 1.34; font-style: italic;
+    margin-top: 8px;
+  }
+  .lead-note {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 12.5px; line-height: 1.42; color: #3d3d3d;
+    border-left: 3px solid #9c1a1a; padding-left: 9px; margin-top: 9px;
+  }
+  .lead-art { flex: 1; }
+  .lead-art svg { display: block; width: 554px; height: 296px; }
+  .caption {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 12px; color: #444; text-align: center; margin-top: 3px;
+  }
+  .caption b { color: #161616; }
+
+  .rule {
+    border: none; border-top: 2px solid #161616; margin-top: 13px;
+  }
+  .rule.thin { border-top-width: 1px; margin-top: 12px; }
+
+  /* Second row: two stories side by side */
+  .row2 { display: flex; gap: 22px; margin-top: 13px; }
+  .story { flex: 1; }
+  .story + .story { border-left: 1px solid #999; padding-left: 22px; }
+  .story h2 {
+    font-size: 25px; line-height: 1.08; font-weight: 900; margin-top: 5px;
+  }
+  .story .body {
+    font-size: 15px; line-height: 1.38; margin-top: 7px;
+  }
+  .story .art { display: flex; gap: 10px; margin-top: 9px; align-items: flex-start; }
+  .story .art svg { display: block; }
+  .story .art .art-note {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 12px; line-height: 1.35; color: #444;
+  }
+
+  /* In brief */
+  .brief { margin-top: 13px; }
+  .brief-head {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 13px; font-weight: 800; letter-spacing: 2.4px; color: #9c1a1a;
+  }
+  .brief-grid { display: flex; flex-wrap: wrap; margin-top: 5px; }
+  .brief-item {
+    flex: 0 0 50%; padding: 5px 14px 5px 0;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 13.5px; line-height: 1.4;
+  }
+  .brief-item:nth-child(even) { padding-left: 14px; padding-right: 0; border-left: 1px solid #999; }
+  .brief-item b { color: #9c1a1a; letter-spacing: 0.6px; }
+
+  .footer {
+    margin-top: 13px; padding-top: 7px; border-top: 2px solid #161616;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 11.5px; color: #555; text-align: center; letter-spacing: 0.4px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="name">THE <span class="red">MONDAY</span> HERALD</div>
+    <div class="dateline">
+      <span>VOL. VII &mdash; No. 327</span>
+      <span class="mid">MONDAY 23 NOVEMBER 2026</span>
+      <span>THE WORLD IN ONE PAGE</span>
+    </div>
+  </div>
+
+  <div class="lead">
+    <div class="lead-text">
+      <div class="kicker">THE GULF WAR &mdash; STRAIT OF HORMUZ</div>
+      <h1>Trump warns of fresh strikes on Iran after 1 January</h1>
+      <p class="deck">Tehran says it shot down two US drones; a tanker hits a mine and burns near Oman; Iran offers to reopen the strait &mdash; on conditions.</p>
+      <p class="lead-note"><b>What is claimed, what is known:</b> the drone shootdowns are Iran&rsquo;s claim; US Central Command denies an American F-16 was hit. The tanker fire and the missing sailor are confirmed by Jordan and maritime reports.</p>
+    </div>
+    <div class="lead-art">
+      <svg viewBox="0 0 554 296" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A tanker burning in the Strait of Hormuz">
+        <rect x="0" y="0" width="554" height="296" fill="#e8ddc4"/>
+        <rect x="0" y="0" width="554" height="150" fill="#f3e9d2"/>
+        <circle cx="470" cy="52" r="30" fill="#e0a13c"/>
+        <circle cx="470" cy="52" r="38" fill="none" stroke="#e0a13c" stroke-width="2" opacity="0.5"/>
+        <!-- distant cliffs -->
+        <path d="M0 150 L70 96 L130 150 Z" fill="#8a7a5c"/>
+        <path d="M470 150 L520 104 L554 128 L554 150 Z" fill="#8a7a5c"/>
+        <!-- sea -->
+        <rect x="0" y="150" width="554" height="146" fill="#2e5a74"/>
+        <path d="M0 168 Q60 160 120 168 T240 168 T360 168 T480 168 T554 168" fill="none" stroke="#7fa8bd" stroke-width="3"/>
+        <path d="M0 196 Q70 188 140 196 T280 196 T420 196 T554 196" fill="none" stroke="#7fa8bd" stroke-width="2" opacity="0.7"/>
+        <path d="M0 252 Q80 244 160 252 T320 252 T480 252 T554 252" fill="none" stroke="#7fa8bd" stroke-width="2" opacity="0.5"/>
+        <!-- tanker -->
+        <g>
+          <rect x="120" y="196" width="300" height="42" fill="#5a1f1f"/>
+          <rect x="120" y="196" width="300" height="8" fill="#7a2a2a"/>
+          <rect x="150" y="168" width="52" height="28" fill="#c8542e"/>
+          <rect x="210" y="168" width="52" height="28" fill="#3f6b4f"/>
+          <rect x="270" y="168" width="52" height="28" fill="#c8542e"/>
+          <rect x="360" y="160" width="46" height="36" fill="#c9bfa5" stroke="#5a4a30" stroke-width="1.5"/>
+          <rect x="372" y="146" width="10" height="16" fill="#c9bfa5" stroke="#5a4a30" stroke-width="1"/>
+          <rect x="388" y="152" width="6" height="10" fill="#c9bfa5" stroke="#5a4a30" stroke-width="1"/>
+          <!-- funnel smoke and flame -->
+          <rect x="384" y="136" width="16" height="12" fill="#3a3a3a"/>
+          <path d="M392 136 C384 112 402 100 392 78 C384 60 400 48 392 30" fill="none" stroke="#5c5548" stroke-width="13" stroke-linecap="round" opacity="0.7"/>
+          <path d="M404 136 C398 116 410 104 402 86" fill="none" stroke="#8a8378" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+          <path d="M388 148 C376 126 396 112 384 90 C396 104 410 122 402 148 Z" fill="#e07830"/>
+          <path d="M394 146 C388 130 400 120 394 102 C402 116 404 134 400 146 Z" fill="#f2c14e"/>
+        </g>
+        <!-- naval mine -->
+        <g>
+          <circle cx="482" cy="238" r="13" fill="#1d1d1d"/>
+          <g stroke="#1d1d1d" stroke-width="3">
+            <line x1="482" y1="222" x2="482" y2="214"/><line x1="482" y1="254" x2="482" y2="262"/>
+            <line x1="466" y1="238" x2="458" y2="238"/><line x1="498" y1="238" x2="506" y2="238"/>
+            <line x1="471" y1="227" x2="465" y2="221"/><line x1="493" y1="227" x2="499" y2="221"/>
+            <line x1="471" y1="249" x2="465" y2="255"/><line x1="493" y1="249" x2="499" y2="255"/>
+          </g>
+          <circle cx="478" cy="234" r="3" fill="#f2c14e"/>
+        </g>
+        <!-- drone -->
+        <g>
+          <ellipse cx="96" cy="72" rx="26" ry="7" fill="#3a3a3a"/>
+          <rect x="88" y="76" width="16" height="9" fill="#3a3a3a"/>
+          <line x1="70" y1="70" x2="62" y2="62" stroke="#3a3a3a" stroke-width="2"/>
+          <line x1="122" y1="70" x2="130" y2="62" stroke="#3a3a3a" stroke-width="2"/>
+          <circle cx="60" cy="60" r="5" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+          <circle cx="132" cy="60" r="5" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+        </g>
+        <!-- labels -->
+        <text x="14" y="24" font-family="Noto Sans, DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#5a4a30">STRAIT OF HORMUZ</text>
+        <text x="470" y="282" font-family="Noto Sans, DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#cfe0e8">NAVAL MINE</text>
+      </svg>
+      <div class="caption"><b>A tanker burns after hitting a mine</b> near Oman&rsquo;s Khasab coast, as two more tankers are reported hit by projectiles.</div>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <div class="row2">
+    <div class="story">
+      <div class="kicker">SOUTH ASIA &mdash; NEW DELHI</div>
+      <h2>Nepal&rsquo;s new PM meets Modi in Delhi</h2>
+      <p class="body">Balendra Shah, in office since March after his party&rsquo;s landslide win, holds his first in-person talks with Narendra Modi &mdash; energy, hydropower, railways and trade on the table, with new crossings and a rail link due to open.</p>
+      <div class="art">
+        <svg viewBox="0 0 150 92" width="150" height="92" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flags of India and Nepal">
+          <rect x="0" y="0" width="150" height="92" fill="#efe8d6"/>
+          <!-- India flag -->
+          <g>
+            <line x1="22" y1="8" x2="22" y2="84" stroke="#5a4a30" stroke-width="2"/>
+            <rect x="22" y="10" width="52" height="12" fill="#e07830"/>
+            <rect x="22" y="22" width="52" height="12" fill="#f7f2e6"/>
+            <rect x="22" y="34" width="52" height="12" fill="#2e7d4f"/>
+            <circle cx="48" cy="28" r="5" fill="none" stroke="#1a4d8f" stroke-width="1.5"/>
+          </g>
+          <!-- Nepal flag (simplified crimson pennon) -->
+          <g>
+            <line x1="108" y1="8" x2="108" y2="84" stroke="#5a4a30" stroke-width="2"/>
+            <path d="M108 10 L142 22 L108 34 L108 30 L132 30 L108 46 Z" fill="#c8102e" stroke="#f7f2e6" stroke-width="1"/>
+            <circle cx="118" cy="20" r="2.4" fill="#f7f2e6"/>
+          </g>
+          <!-- bridge -->
+          <path d="M8 84 Q75 66 142 84" fill="none" stroke="#5a4a30" stroke-width="2"/>
+        </svg>
+        <div class="art-note">Shah&rsquo;s first bilateral trip abroad as prime minister; the two sides are to unveil a joint vision for a &ldquo;prosperous Nepal, developed India&rdquo;.</div>
+      </div>
+    </div>
+    <div class="story">
+      <div class="kicker">WASHINGTON &mdash; PYONGYANG</div>
+      <h2>Kim ignores Trump&rsquo;s calls and letter, report says</h2>
+      <p class="body">The Wall Street Journal reports Trump tried established phone lines and sent a letter &mdash; handed to a diplomat outside North Korea&rsquo;s UN mission &mdash; and got no reply, as the North&rsquo;s arsenal grows to about 60 warheads.</p>
+      <div class="art">
+        <svg viewBox="0 0 150 92" width="150" height="92" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An unanswered letter and phone">
+          <rect x="0" y="0" width="150" height="92" fill="#efe8d6"/>
+          <!-- envelope -->
+          <rect x="12" y="26" width="76" height="48" fill="#f7f2e6" stroke="#5a4a30" stroke-width="2"/>
+          <path d="M12 26 L50 56 L88 26" fill="none" stroke="#5a4a30" stroke-width="2"/>
+          <!-- phone -->
+          <g>
+            <rect x="104" y="18" width="34" height="56" rx="5" fill="#3a3a3a"/>
+            <rect x="110" y="28" width="22" height="30" fill="#7fa8bd"/>
+            <circle cx="121" cy="66" r="4" fill="#f7f2e6"/>
+          </g>
+          <!-- NO REPLY stamp -->
+          <g transform="rotate(-12 62 66)">
+            <rect x="18" y="56" width="88" height="20" fill="none" stroke="#9c1a1a" stroke-width="2.5"/>
+            <text x="62" y="70" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#9c1a1a">NO REPLY</text>
+          </g>
+        </svg>
+        <div class="art-note">A renewed push for a meeting during Trump&rsquo;s Asia trip also failed; Pyongyang set conditions Washington would not accept, the report says.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="rule thin">
+
+  <div class="row2">
+    <div class="story">
+      <div class="kicker">UKRAINE &mdash; KYIV REGION</div>
+      <h2>Kyiv region mourns its dead</h2>
+      <p class="body">Today is a day of mourning for the victims of Sunday&rsquo;s drone strike on a block of flats in Dymer; three people are confirmed dead and rescuers are still searching the rubble.</p>
+    </div>
+    <div class="story">
+      <div class="kicker">THE DAY IN BRIEF</div>
+      <p class="body"><b>Climate:</b> COP31 ends with no pact, the UN confirms &mdash; its chief calls the outcome &ldquo;deeply disappointing&rdquo;. <b>Finland:</b> the Russian cargo ship hit on Sunday is still burning in the Gulf of Finland. <b>Economy:</b> India&rsquo;s oil and gas import bill rose 60% in October. <b>China:</b> Beijing condemns US curbs on its telecom firms.</p>
+    </div>
+  </div>
+
+  <div class="footer">Every story on this page was first reported on Monday 23 November 2026. Claims are attributed where they could not be independently verified.</div>
+
+</body>
+</html>
